@@ -16,4 +16,5 @@ Böylece discord'un DNS çözümlemeleri de bu tünelden yapılacak ve WARP tün
 ## version.dll nedir?
 
 Bu dll dosyası Discord'un özel proxy adresleriyle açılmasını sağlayan bir dosyadır. Update.exe -a --proxy-server=(proxy-adresi) şeklinde çalıştırmanıza izin verir.
+
 **Ayrıntılı bilgi:** https://github.com/aiqinxuancai/discord-proxy/
