@@ -1,8 +1,10 @@
+*Diğer dillerde oku: [Türkçe](README.md)*
+
 ## First, make sure you have enabled the Local Proxy mode in the Cloudflare One Client.
 
 <img width="554" height="425" alt="image" src="https://github.com/user-attachments/assets/9a96339c-4916-4c6e-8e7c-e94c4464fde2" />
 
-Download and run the script. It creates a VBS file that makes the necessary configurations to connect Discord to WARP's proxy address, and creates a shortcut for this VBS on your desktop named **Discord (WARP)**. From now on, you can launch Discord through WARP simply by clicking this shortcut.
+Download and run the script. It creates a VBS file that makes the necessary configurations to connect Discord to WARP's proxy address, and creates a shortcut for this VBS on your desktop named ***Discord (WARP)***. From now on, you can launch Discord through WARP simply by clicking this shortcut.
 
 ## Why did I use sing-box as an extra step?
 
