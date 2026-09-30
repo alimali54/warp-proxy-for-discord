@@ -3,9 +3,33 @@
 ## Öncelikle Cloudflare One Client programında Yerel Proxy modunu aktif ettiğinizden emin olun.
 <img width="554" height="425" alt="image" src="https://github.com/user-attachments/assets/9a96339c-4916-4c6e-8e7c-e94c4464fde2" />
 
-
+## Windows Kullanımı
 Scripti indirin ve çalıştırın. Discord'u WARP'ın proxy adresine bağlamak için gerekli ayarlamaları yapan bir VBS dosyası oluşturur ve bu VBS'nin kısayolunu masaüstüne ***Discord (WARP)*** ismiyle atar. Artık sadece bu kısayolu tıklayarak Discord'u WARP üzerinden açabilirsiniz.
 
+## MacOS Kullanımı
+###  Tek Komutla Otomatik Kurulum
+
+```bash
+bash <(curl -sSL https://raw.githubusercontent.com/alimali54/WARP-Proxy-for-Discord/main/mac-install.sh)
+```
+
+Masaüstüne ve Launchpad'e Discord (WARP) kısayolları eklenecektir.
+
+### Kaldırma Adımları
+### Süreçleri durdurup kısayolları ve başlangıç öğesini kaldırmak için:
+```bash
+bash ~/WARP_Discord_Proxy/uninstall.sh
+```
+
+### WARP Proxy klasörünü kaldırmak için
+```bash
+rm -rf ~/WARP_Discord_Proxy
+```
+
+
+
+
+---
 ## Neden ekstra olarak sing-box kullandım?
 
 WARP'ın Proxy tüneline (`socks5://127.0.0.1:40000`) Discord'u direkt olarak sokabilirdik ancak bu tünelden DNS çözümlemesi yapılmıyor.
@@ -20,3 +44,4 @@ Böylece discord'un DNS çözümlemeleri de bu tünelden yapılacak ve WARP tün
 Bu dll dosyası Discord'un özel proxy adresleriyle açılmasını sağlayan bir dosyadır. `Update.exe -a --proxy-server=(proxy-adresi)` şeklinde çalıştırmanıza izin verir.
 
 **Ayrıntılı bilgi:** https://github.com/aiqinxuancai/discord-proxy/
+
